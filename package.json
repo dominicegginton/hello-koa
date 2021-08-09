@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Todo project for the Hello Koa article series",
   "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
